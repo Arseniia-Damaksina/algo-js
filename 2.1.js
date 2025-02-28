@@ -12,10 +12,11 @@ const adultAge = 18;
 
 let userAge = parseInt(prompt(askAgeMessage));
 
-if (userAge >= adultAge) {
-  prompt(adultMessage);
-} else if (userAge >= zero && userAge < adultAge) {
-  prompt(childMessage);
+
+if (isNaN(userAge) || userAge < zero) {
+  console.log(errorMessage);
+} else if (userAge >= adultAge) {
+  console.log(adultMessage);
 } else {
-  prompt(errorMessage);
+  console.log(childMessage);
 }

@@ -15,13 +15,13 @@ const min = parseInt(prompt(minMessage));
 const max = parseInt(prompt(maxMessage));
 
 if (min > max) {
-    prompt(minGreaterThanMaxErrorMessage);
+    console.log(minGreaterThanMaxErrorMessage);
 } else {
     const current = parseInt(prompt(currentMessage));
 
     if(current > min && current < max) {
-        prompt(currentIsBetweenMessage);
+        console.log(currentIsBetweenMessage);
     } else {
-        prompt(currentIsNotBetweenMessage);
+        console.log(currentIsNotBetweenMessage);
     }
 }
