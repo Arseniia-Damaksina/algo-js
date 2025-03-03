@@ -27,5 +27,8 @@
   - Recursively calculating factorials.
   - Randomly selecting unique learners using the Fisher-Yates shuffle.
 
+  - **Objects and Data Structures:**  
+  Learned to organize user input into structured objects and to convert them into JSON format for easy output.
+
 - **Documentation:**  
   Learned how to document the functions with JSDoc comments for clarity and maintainability.
