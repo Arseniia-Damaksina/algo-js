@@ -30,5 +30,8 @@
 - **Objects and Data Structures:**  
   Learned to organize user input into structured objects and to convert them into JSON format for easy output.
 
+- **Classes:**  
+  Advanced my knowledge of object-oriented programming by creating and testing custom classes and methods, getters and constructor.
+
 - **Documentation:**  
   Learned how to document the functions with JSDoc comments for clarity and maintainability.
